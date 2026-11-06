@@ -4,6 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=flat-square)
 
+**Related:** Live dividend API: [divident-fetch-server.vercel.app](https://divident-fetch-server.vercel.app)
+
 ## Features
 
 - Scrapes Moneycontrol's card-based *Dividends Declared* layout
@@ -21,8 +23,6 @@ cd AlgoDividend
 pip install requests beautifulsoup4 tabulate
 python main.py
 ```
-
-**Related:** [dividend-fetch-server](https://github.com/optimus-node-js/dividend-fetch-server) exposes the same data as a REST API · [Dividend-Fetcher](https://github.com/optimus-node-js/Dividend-Fetcher) is the auto-refreshing CLI.
 
 ---
 
